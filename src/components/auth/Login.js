@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link, useHistory } from "react-router-dom";
+import "./Login.css"
 
 
 export const Login = () => {
@@ -37,7 +38,7 @@ export const Login = () => {
 
     return (
         <main className="container--login">
-            <dialog className="dialog dialog--auth" open={existDialog}>
+            <dialog className="dialog--auth" open={existDialog}>
                 <div>User does not exist</div>
                 <button className="button--close" onClick={e => setExistDialog(false)}>Close</button>
             </dialog>
@@ -45,7 +46,7 @@ export const Login = () => {
                 <form className="form--login" onSubmit={handleLogin}>
                     <h1>Login</h1>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label htmlFor="inputEmail"></label>
                         <input type="email"
                             id="email"
                             className="form-control"
@@ -53,8 +54,6 @@ export const Login = () => {
                             required autoFocus
                             value={loginUser.email}
                             onChange={handleInputChange} />
-                    </fieldset>
-                    <fieldset>
                         <button type="submit">
                             Sign in
                         </button>
