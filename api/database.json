@@ -3,86 +3,86 @@
     {
       "id": 1,
       "title": "Iron Man",
-      "movieImg": "https://media.comicbook.com/2017/10/iron-man-movie-poster-marvel-cinematic-universe-1038878.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "Iron Man tells the story of Tony Stark, a billionaire industrialist and genius inventor who is kidnapped and forced to build a devastating weapon. Instead, using his intelligence and ingenuity, Tony builds a high-tech suit of armor and escapes captivity. When he uncovers a nefarious plot with global implications, he dons his powerful armor and vows to protect the world as Iron Man."
     },
     {
       "id": 2,
       "title": "The Incredible Hulk",
-      "movieImg": "img/hulk.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/f/f0/The_Incredible_Hulk_%28film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "Scientist Bruce Banner desperately hunts for a cure to the gamma radiation that poisoned his cells and unleashes the unbridled force of rage within him: Hulk. Living in the shadows--cut off from a life he knew and the woman he loves, Betty Ross--Banner struggles to avoid the obsessive pursuit of his nemesis, General Thunderbolt Ross and the military machinery that seeks to capture him and brutally exploit his power. As all three grapple with the secrets that led to Hulk's creation, they are confronted with a monstrous new adversary known as the Abomination, whose destructive strength exceeds even Hulk's own. One scientist must make an agonizing final choice: accept a peaceful life as Bruce Banner or find heroism in the creature he holds inside--The Incredible Hulk."
     },
     {
       "id": 3,
       "title": "Iron Man 2",
-      "movieImg": "img/ironman2.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg",
       "comicId": 5,
       "synopsis": "With the world now aware that he is Iron Man, billionaire inventor Tony Stark faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts and Rhodey by his side, Tony must forge new alliances and confront a powerful new enemy."
     },
     {
       "id": 4,
       "title": "Thor",
-      "movieImg": "img/thor.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/9/95/Thor_%28film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "As the son of Odin, king of the Norse gods, Thor will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki, Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat."
     },
     {
       "id": 5,
       "title": "Captain America: The First Avenger",
-      "movieImg": "img/captainamerica.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
       "comicId": 5,
       "synopsis": "Captain America: The First Avenger focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America."
     },
     {
       "id": 6,
       "title": "The Avengers",
-      "movieImg": "img/avengers.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins."
     }
   ],
-  "phase_2": [
+  "movies2": [
     {
       "id": 1,
       "title": "Iron Man 3",
-      "movieImg": "img/ironman3.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg",
       "comicId": 5,
       "synopsis": "Iron Man 3 pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy's hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man?"
     },
     {
       "id": 2,
       "title": "Thor: The Dark World",
-      "movieImg": "img/Thor-_The_Dark_World_poster.jpeg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/7/7f/Thor_The_Dark_World_poster.jpg",
       "comicId": 5,
       "synopsis": "In the aftermath of 'Thor' and  'The Avengers,' Thor fights to restore order across the cosmos...but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all."
     },
     {
       "id": 3,
       "title": "Captain America: The Winter Soldier",
-      "movieImg": "img/captainamericathewintersoldier.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg",
       "comicId": 5,
       "synopsis": "Two years after the cataclysmic events in New York with The Avengers, Marvel's Captain America: The Winter Soldier, finds Steve Rogers, aka Captain America, living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy--the Winter Soldier."
     },
     {
       "id": 4,
       "title": "Guardians of the Galaxy",
-      "movieImg": "img/GoG.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "Brash adventurer Peter Quill finds himself the object of an unrelenting bounty hunt after stealing a mysterious orb coveted by Ronan, a powerful villain with ambitions that threaten the entire universe. To evade the ever-persistent Ronan, Quill is forced into an uneasy truce with a quartet of disparate misfits--Rocket, a gun-toting raccoon; Groot, a tree-like humanoid; the deadly and enigmatic Gamora; and the revenge-driven Drax the Destroyer. But when Quill discovers the true power of the orb and the menace it poses to the cosmos, he must do his best to rally his ragtag rivals for a last, desperate stand--with the galaxy's fate in the balance.["
     },
     {
       "id": 5,
       "title": "Avengers: Age of Ultron",
-      "movieImg": "img/AoU.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg",
       "comicId": 5,
       "synopsis": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes, including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye, along with support from Nick Fury and Maria Hill are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to the Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure."
     },
     {
       "id": 6,
       "title": "Ant Man",
-      "movieImg": "img/antman.jpg",
+      "movieImg": "https://upload.wikimedia.org/wikipedia/en/1/12/Ant-Man_%28film%29_poster.jpg",
       "comicId": 5,
       "synopsis": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world."
     }
@@ -119,7 +119,7 @@
     {
       "name": "Tony",
       "email": "tstark3000@starkindustries.com",
-      "id": 1
+      "id": 2
     },
     {
       "name": "Steve",
@@ -127,8 +127,8 @@
       "id": 3
     },
     {
-      "email": "biggreen&mean@gamma.net",
       "name": "Bruce Banner",
+      "email": "biggreen&mean@gamma.net",
       "id": 4
     }
   ]

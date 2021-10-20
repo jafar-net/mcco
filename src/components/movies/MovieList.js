@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {  getAllMovies } from './MovieManager';
-import { MovieCard } from './MovieCard';
+import {  getAllMovies, getAllMovies2 } from './MovieManager';
+import { MovieCard, MovieCard2 } from './MovieCard';
 
 export const MovieList = () => {
   // The initial state is an empty array
@@ -23,14 +23,22 @@ export const MovieList = () => {
     );
 };
 
-// export const MovieList = (props) => {
-// 	return (
-// 		<>
-// 			{props.movies.map((movie, index) => (
-// 				<div className='image-container d-flex justify-content-start m-3'>
-// 					<img src={movie.movieImg} alt='movie'></img>
-// 				</div>
-// 			))}
-// 		</>
-// 	);
-// };
+export const MovieList2 = () => {
+    const [movies2, setMovies2] = useState([])
+      const getMovies2 = () => {
+          return getAllMovies2().then(moviesFromApi => {
+              setMovies2(moviesFromApi)
+          });
+      };
+      useEffect(() => {
+          getMovies2();
+      }, []);
+  
+      return (
+          <>
+          <div className="container-cards">
+              {movies2?.map(movie => <MovieCard2 key={movie.id} movie={movie}  />)}
+          </div>
+          </>
+      );
+  };

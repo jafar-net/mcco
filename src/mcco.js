@@ -12,9 +12,9 @@ export const MCCO = () => (
         if (sessionStorage.getItem("mcco_user")) {
           return (
             <>
-            <h1>MCCO</h1>
-              <ApplicationViews />
-              <NavBar />
+            <h1>Marvel Cinematic Comic Origins</h1>
+            <NavBar />
+            <ApplicationViews />
             </>
           )
         } else {
