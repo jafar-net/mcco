@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.nav__flex {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 275px;
+    margin: 20px 50px;
+  }
+  
+  .nav {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    margin: auto 0px;
+  }
+  
+  .nav__item {
+    font-family: 'Marvel', sans-serif;
+    margin: 0px 20px;
+    list-style-type: none;
+  }
+  
+  .nav__link {
+    font-size: 26px;
+    font-weight: bold;
+    color: #483934;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav__button {
+    font-family: 'Marvel', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #B3AE25;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border: white;
+  }

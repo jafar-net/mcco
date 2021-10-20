@@ -1,9 +1,21 @@
-/* body {
-  background-color: #525050;
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+
+
+.header-title {
+font-family: 'Marvel', sans-serif;
+color: white;
+background-color: #CB1E1E;
+font-size: 40px;
+font-weight: bold;
+text-shadow: -2px -2px 0 black,
+             2px -2px 0 black,
+             -2px 2px 0 black,
+             2px 2px 0 black,
+             -3px 0 0 black,
+             3px 0 0 black,
+             0 -3px 0 black,
+             0 3px 0 black;
+text-align: center
 }
 
-.mcco > .row {
-  overflow-x: auto;
-  flex-wrap: nowrap;
-  
-} */

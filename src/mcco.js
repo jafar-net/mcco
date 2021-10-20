@@ -4,6 +4,7 @@ import { ApplicationViews } from "./ApplicationViews"
 import { Login } from "./components/auth/Login"
 import { Register } from "./components/auth/Register"
 import { NavBar } from "./components/nav/NavBar"
+import "./main.css"
 
 export const MCCO = () => (
   <>
@@ -12,7 +13,7 @@ export const MCCO = () => (
         if (sessionStorage.getItem("mcco_user")) {
           return (
             <>
-            <h1>Marvel Cinematic Comic Origins</h1>
+            <h1 className="header-title">Marvel Cinematic Comic Origins</h1>
             <NavBar />
             <ApplicationViews />
             </>
