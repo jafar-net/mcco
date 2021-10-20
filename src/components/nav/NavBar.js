@@ -15,7 +15,7 @@ const history = useHistory();
           <Link className="nav__link" to="/movies">Phase 1</Link>
         </li>
         <li className="nav__item">
-          <Link className="nav__link" to="/phase2">Phase 2</Link>
+          <Link className="nav__link" to="/movies2">Phase 2</Link>
         </li>
         <li className="nav__item">
           <Link className="nav__link" to="/reading_list">Reading List</Link>

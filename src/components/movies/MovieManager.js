@@ -5,6 +5,11 @@ export const getAllMovies = () => {
     .then(res => res.json())
   }
 
+  export const getAllMovies2 = () => {
+    return fetch(`${remoteURL}/movies2`)
+    .then(res => res.json())
+  }
+
   export const getMovieById = (movieId) => {
     return fetch(`${remoteURL}/Movies/${movieId}`)
     .then(res => res.json())
