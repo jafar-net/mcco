@@ -62,4 +62,5 @@ body {
     font-size: 16px;
     padding: 16px 32px;
     font-family: 'Marvel', sans-serif;
+    cursor: pointer;
   }
