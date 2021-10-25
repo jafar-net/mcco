@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from "react-router-dom"
 import {MovieList, MovieList2} from './components/movies/MovieList.js'
-import { ComicList } from './components/comics/ComicList.js'
+import { ComicList, MovieForCard } from './components/comics/ComicList.js'
 
 export const ApplicationViews = () => {
     return (
@@ -17,6 +17,7 @@ export const ApplicationViews = () => {
 
         <Route exact path="/comics/:movieId(\d+)">
                 <ComicList />
+                
             </Route>
         </>
   )
