@@ -7,15 +7,13 @@ import { useParams } from 'react-router-dom';
 export const ComicList = () => {
 	console.log("ComicList Invoked")
     const [comic, setComic] = useState([]);
-    // const [isLoading, setIsLoading] = useState(true);
-
-    // const {movieId} = useParams()
-    
+    const {movieId} = useParams()
 	const getComics = () => {
 		console.log("getComics Invoked")
 		return getAllComics().then(comicFromAPI => {
-			console.log(comicFromAPI);
-			setComic(comicFromAPI);
+		const filterComics = comicFromAPI.filter(comic => comic.movieId === parseInt(movieId))
+			console.log(filterComics);
+			setComic(filterComics);
 		});
 	};
 
@@ -24,24 +22,13 @@ export const ComicList = () => {
 		getComics();
 	}, []);
 
-    // useEffect(() => {
-    //     console.log("useEffect", movieId)
-    //     getComicById(movieId)
-    //       .then(comic => {
-    //         setComic({
-    //           name: comic.title,
-    //           breed: comic.description
-    //         });
-    //         setIsLoading(false);
-    //       });
-    //   }, [movieId]);
 
 	return (
 		<>
         <h1>Comic Insiprations</h1>
 		<div className="container-cards">
 			{comic?.map(comic =>
-				<ComicCard key={comic.id} comic={comic}/>)}
+				<ComicCard key={comic.movieId} comic={comic}/>)}
 		</div>
 		</>
 	);

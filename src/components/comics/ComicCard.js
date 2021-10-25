@@ -4,12 +4,11 @@ import { Link } from "react-router-dom"
 
 export const ComicCard = ({ comic }) => {
   return (
-    <div className="card">
-      <div className="card-content">
-        <h3>
-          {comic.title}</h3>
-        <p>Film Connection: {comic.description}</p>
-      </div>
+    <div className="comic-list">
+      <ul>
+        <h3>{comic.title}</h3>
+        <h4>Film Connection:</h4><p>{comic.description}</p>
+        </ul>
     </div>
   );
 }
