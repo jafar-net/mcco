@@ -87,229 +87,283 @@
       "id": 2,
       "title": "Tales of Suspense 45",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearances of Pepper Potts and Happy Hogan",
+      "url": "https://www.marvel.com/comics/issue/11287/tales_of_suspense_1959_45"
     },
     {
       "id": 3,
       "title": "Tales of Suspense 48",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "(Iron Man dons the red and gold color scheme",
+      "url": "https://www.marvel.com/comics/issue/11290/tales_of_suspense_1959_48"
     },
     {
       "id": 4,
       "title": "Tales of Suspense 59",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Jarvis.",
+      "url": "https://www.marvel.com/comics/issue/11302/tales_of_suspense_1959_59"
     },
     {
       "id": 5,
       "title": "Iron Man 118",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of James Rhodes",
+      "url": "https://www.marvel.com/comics/issue/9348/iron_man_1968_118"
     },
     {
       "id": 6,
       "title": "Iron Man 163",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Obadiah Stane ",
+      "url": "https://www.marvel.com/comics/issue/9398/iron_man_1968_163"
     },
     {
       "id": 7,
       "title": "Iron Man 200",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of the Iron Monger Armor",
+      "url": "https://www.marvel.com/comics/issue/9440/iron_man_1968_200"
     },
     {
       "id": 8,
-      "title": "Iron Man Vol 1 217",
+      "title": "Iron Man 217",
       "movieId": 1,
-      "description": "",
+      "description": "First appearance of Stark Industries Headquarters",
       "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
     },
     {
       "id": 9,
-      "title": "Iron Man Vol 1 267",
+      "title": "Iron Man 267",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "The Mandarin being responsible for capturing Tony Stark",
+      "url": "https://www.marvel.com/comics/issue/9513/iron_man_1968_267"
     },
     {
       "id": 10,
       "title": "Ultimate Marvel Team-Up 5 ",
       "movieId": 1,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Nick Fury in the Ultimate Universe",
+      "url": "https://www.marvel.com/comics/issue/15779/ultimate_marvel_team-up_2001_5"
     },
     {
       "id": 11,
       "title": "Incredible Hulk 1 ",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Hulk/Bruce Banner, Betty Ross, and General Ross",
+      "url": "https://www.marvel.com/comics/issue/8906/incredible_hulk_1962_1"
     },
     {
       "id": 12,
       "title": "Incredible Hulk 2",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Gamma Ray Projector",
+      "url": "https://www.marvel.com/comics/issue/8907/incredible_hulk_1962_2"
     },
     {
       "id": 13,
       "title": "Tales to Astonish 63 ",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "Origin of Samuel Sterns / The Leader",
+      "url": "https://www.marvel.com/comics/issue/11408/tales_to_astonish_1959_63"
     },
     {
       "id": 14,
       "title": "Tales to Astonish 90",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Emil Blonsky/ Abomination ",
+      "url": "https://www.marvel.com/comics/issue/11438/tales_to_astonish_1959_90"
     },
     {
       "id": 15,
       "title": "Incredible Hulk 141 ",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Doc Samson ",
+      "url": "https://www.marvel.com/comics/issue/8952/incredible_hulk_1962_141"
     },
     {
       "id": 16,
       "title": "Incredible Hulk 148",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of the Hulkbusters ",
+      "url": "https://www.marvel.com/comics/issue/8959/incredible_hulk_1962_148"
     },
     {
       "id": 17,
       "title": "Incredible Hulk 34",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "Samuel Sterns becomes Mr. Blue",
+      "url": "https://www.marvel.com/comics/issue/14434/hulk_1999_34"
     },
     {
       "id": 18,
       "title": "Ultimate Marvel Team-Up 3",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Ultimate General Ross",
+      "url": "https://www.marvel.com/comics/issue/15777/ultimate_marvel_team-up_2001_3"
     },
     {
       "id": 19,
       "title": "Ultimates 12",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "Bruce Banner falls out of a helicopter and turns into Hulk",
+      "url": "https://www.marvel.com/comics/issue/255/ultimates_2002_12"
     },
     {
       "id": 20,
       "title": "Hulk Gray",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "Early years of Hulk with many elements being taken for the film including Bruce and Betty in a cave",
+      "url": "https://www.marvel.com/comics/issue/365/hulk_gray_2003_1"
     },
     {
       "id": 21,
       "title": "Ultimate Origins 1 ",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "Origins of Ultimate Hulk",
+      "url": "https://www.marvel.com/comics/issue/21385/ultimate_origins_2007_1"
     },
     {
       "id": 22,
       "title": "Defenders 32",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Grayburn College",
+      "url": "https://www.marvel.com/comics/issue/20340/defenders_1972_32"
     },
     {
       "id": 23,
-      "title": "Tales of Suspense 39",
+      "title": "Tales to Astonish 62",
       "movieId": 2,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of The Leader",
+      "url": "https://www.marvel.com/comics/issue/11407/tales_to_astonish_1959_62"
     },
     {
       "id": 24,
       "title": "Tales of Suspense 52",
       "movieId": 3,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Black Widow",
+      "url": "https://www.marvel.com/comics/issue/11396/tales_to_astonish_1959_52"
     },
     {
       "id": 25,
       "title": "Journey Into Mystery 83",
       "movieId": 4,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Thor",
+      "url": "https://www.marvel.com/comics/issue/9779/journey_into_mystery_1952_83"
     },
     {
       "id": 26,
       "title": "Captain America Comics 1",
       "movieId": 5,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First Appearance of Steve Rogers/Captain America and Bucky Barnes",
+      "url": "https://www.marvel.com/comics/issue/7849/captain_america_comics_1941_1"
     },
     {
       "id": 27,
       "title": "Avengers 1",
       "movieId": 6,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of The Avengers and they battle Loki",
+      "url": "https://www.marvel.com/comics/issue/6951/avengers_1963_1"
     },
     {
       "id": 28,
-      "title": "Iron Man Vol 4",
+      "title": "The Invincible Iron Man",
       "movieId": 7,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
-    },   {
+      "description": "Extremis Story Arc",
+      "url": "https://www.marvel.com/comics/series/835/the_invincible_iron_man_2004_-_2007"
+    },
+    {
       "id": 29,
       "title": "Thor 136",
       "movieId": 8,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
-    },   {
+      "description": "Thor takes Jane Foster to Asgard",
+      "url": "https://www.marvel.com/comics/issue/11464/thor_1966_136"
+    },
+    {
       "id": 30,
-      "title": "Captain America Vol 4",
+      "title": "Captain America Vol 5",
       "movieId": 9,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
-    },   {
+      "description": "First appearance of the Winter Solider",
+      "url": "https://www.marvel.com/comics/issue/91/captain_america_2004_1"
+    },
+    {
       "id": 31,
       "title": "Avengers 54",
       "movieId": 10,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
-    },   {
+      "description": "First appearance of Ultron ",
+      "url": "https://www.marvel.com/comics/issue/7304/avengers_1963_54"
+    },
+    {
       "id": 32,
       "title": "Guardians of the Galaxy Vol 2",
       "movieId": 11,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
-    },   {
+      "description": "Formation of the Guardians of the Galaxy",
+      "url": "https://www.marvel.com/comics/issue/21268/guardians_of_the_galaxy_2008_1"
+    },
+    {
       "id": 33,
       "title": "Tales to Astonish 27",
       "movieId": 12,
-      "description": "",
-      "url": "https://www.marvel.com/comics/issue/11280/tales_of_suspense_1959_39"
+      "description": "First appearance of Hank Pym",
+      "url": "https://www.marvel.com/comics/issue/11368/tales_to_astonish_1959_27"
+    },
+    {
+      "id": 34,
+      "title": "Tales of Suspense 40",
+      "movieId": 3,
+      "description": "Iron Man's briefcase armor",
+      "url": "https://marvel.fandom.com/wiki/Tales_of_Suspense_Vol_1_40"
     }
   ],
   "reads": [
     {
       "id": 1,
       "comicId": 1,
-      "userId": 1,
+      "userId": 2,
       "isCompleted": false,
       "categoryId": 1
+    },
+    {
+      "id": 2,
+      "comicId": 3,
+      "userId": 1,
+      "isCompleted": true,
+      "categoryId": 1
+    },
+    {
+      "comicId": "25",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 3
+    },
+    {
+      "comicId": "17",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 4
+    },
+    {
+      "comicId": "1",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 5
+    },
+    {
+      "comicId": "1",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 6
+    },
+    {
+      "comicId": "28",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 7
     }
   ],
   "categories": [
@@ -340,5 +394,4 @@
       "id": 4
     }
   ]
-  
 }

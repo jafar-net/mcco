@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Marvel Cinematic Comic Origins (MCCO)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies
 
-## Available Scripts
+- Dbdiagram
+- Figma
+- React
+- CSS
+- Github
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+MCCO is your one stop application for learning about the comics that inspired your favorite MCU films!  Browse the movies by phase and click more info to see the most influential comics for each entry and how they inspired the film.  From there you can add comics to a reading list or follow a link to Marvel's website to learn more about each individual comic!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup: Follow these steps for installing dependencies and starting the app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Open the terminal
+2. Type git clone git@github.com:jafar-net/mcco.git
+3. Type `cd mcco`
+4. Type `Npm install`
+5. While still in the `mcco` directory, type `npm start`
+6. Open a separate terminal window. 
+7. Type `cd mcco/api` 
+8. Type `json-sever -p 8088 -w database.json`
 
-### `npm test`
+## How to use MCCO
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Login or Register from the login page using your email.  Once logged in, you can select a phase of MCU films to browse from the nav bar.  After selecting a film and clicking "more info" you will be taken to the film's comics page where you can view info on the film's plot and find a list of the comics that inspired the movie.  You may either click "more info" to be redirected to the Marvel website's page for a given comic or "add to list" which puts the comic into your reading list.  
 
-### `npm run build`
+You can also visit your reading list from the nav bar where you will find a list of all the comics you have added and mark them as complete or visit their Marvel website link.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| [dbdiagram](public/journal_ERD.png) | [wireframe](https://www.figma.com/file/FA29KtHat6HD4a2Mbn1mlX/MCCO-Wireframe?node-id=0%3A1) 

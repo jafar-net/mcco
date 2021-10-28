@@ -1,23 +1,34 @@
 import React, {useState, useEffect} from 'react';
 import {  getAllReads } from './ReadManager';
+import { getComicById}  from "../comics/ComicManager"
 import { ReadCard } from './ReadCard';
+import { ComicCard } from '../comics/ComicCard';
 
 export const ReadList = () => {
-  // The initial state is an empty array
-  const [reads, setReads] = useState([])
-    const getReads = () => {
+    // let comics = [];
+  const [comics, setComics] = useState([])
+    const geComics = () => {
         return getAllReads().then(readsFromApi => {
-            setReads(readsFromApi)
+            // setComics(readsFromApi)
+            readsFromApi.forEach(read => {
+               getComicById(read.comicId).then(comic => {
+                setComics(comics => [...comics, comic])
+               })
+            });
+            console.log(comics)
         });
     };
     useEffect(() => {
-        getReads();
+        geComics();
     }, []);
 
 	return (
         <>
         <div className="container-cards">
-            {reads?.map(read => <ReadCard key={read.id} read={read}  />)}
+            <h1>Reading List</h1>
+            <div>
+            {comics?.map(comic => <ReadCard key={comic.Id} comic={comic}  />)}
+            </div>
         </div>
         </>
     );
