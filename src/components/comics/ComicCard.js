@@ -4,14 +4,38 @@ import { useHistory } from "react-router-dom"
 
 export const ComicCard = ({ comic }) => {
   const history = useHistory();
+  const handleAddList = () => {
+                fetch("http://localhost:8088/reads", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                      comicId: `${comic.id}`,
+                      userId: sessionStorage.getItem("mcco_user"),
+                      isCompleted: false,
+                      categoryId: 1,
+                    })
+                })
+                    .then(res => res.json())
+                    .then(createdUser => {
+                            history.push("/reading_list")
+                    })
+            
+            }
+
   return (
-    <div className="comic-list">
-      <ul>
-        <h3>{comic.title}</h3>
-        <h4>Film Connection:</h4><p>{comic.description} <a href={comic.url} target="_blank"><button>More Info</button></a><button className="addtolist-button" type="button"
-                onClick={() => history.push(`/reading_list`)}>
+    <div className="container-comic">
+      <ul className="list">
+        <h2 className="comic-title">{comic.title}</h2>
+        <h4>Film Connection:</h4>
+        <p>{comic.description}</p>
+        <a href={comic.url} target="_blank"><button className="comic-button">More Info</button></a>
+        <button className="comic-buttons" type="button"
+        comic={comic}
+                onClick={() => handleAddList()}>
                 Add to List
-            </button></p>
+            </button>
         </ul>
     </div>
   );

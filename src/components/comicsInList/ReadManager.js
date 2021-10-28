@@ -2,9 +2,17 @@
 // import React, { useState, useEffect } from 'react';
 
 const remoteURL = "http://localhost:8088"
+const userId=sessionStorage.getItem("mcco_user")
 
 export const getAllReads = () => {
-  return fetch(`${remoteURL}/reads`)
+
+  return fetch(`${remoteURL}/reads?userId=${userId}&?_embed=comic`)
+  .then(res => res.json())
+}
+
+export const getReadById = (readId) => {
+  //be sure your reads have good data and related to a location and customer
+  return fetch(`${remoteURL}/reads/${readId}?_expand=comic&_expand=movie`)
   .then(res => res.json())
 }
 

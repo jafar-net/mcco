@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.comic-title {
+    font-weight: bold;
+}
+
+.comic-buttons {
+    color: #B3AE25;
+    background-color: #CB1E1E;
+    color: white;
+    font-size: 9px;
+    padding: 9px 20px;
+    font-family: 'Marvel', sans-serif;
+    cursor: pointer;
+}
+
+.comic-button {
+    color: #B3AE25;
+    background-color: #CB1E1E;
+    color: white;
+    font-size: 9px;
+    padding: 9px 20px;
+    font-family: 'Marvel', sans-serif;
+    cursor: pointer;
+}
+
+
+.container-comic {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding:1em;
+    box-sizing: border-box
+  }

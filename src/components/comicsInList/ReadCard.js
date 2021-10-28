@@ -1,9 +1,13 @@
-import React from "react"
+import React from "react" 
+import { getComicById}  from "../comics/ComicManager"
 
-export const ReadCard = ({read}) => {
+export const ReadCard = ({comic}) => {
+  console.log(comic)
 	return (
 	<div>
-    {read.comicId.title}
+    <ul>
+    <a target="_blank" href={comic.url}>{comic.title}</a>
+    </ul>
     </div>
   ) 
 }
