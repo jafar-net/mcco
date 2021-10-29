@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {  deleteMustRead, getAllCategories } from "./ReadManager"
-import { useParams } from 'react-router-dom';
+import {  deleteMustRead, getAllCategories, getAllComplete } from "./ReadManager";
 import { MustReadCard } from './MustRead';
 
 export const MustRead = () => {
@@ -29,9 +28,11 @@ export const MustRead = () => {
             <h1>Must Reads</h1>
             <ul>
             {categories?.map(categorie => <MustReadCard key={categorie.id} categorie={categorie}
-            handleDeleteMustRead={handleDeleteMustRead}  />)}
+          handleDeleteMustRead={handleDeleteMustRead}  />)}
+          
             </ul>
         </div>
         </>
     );
 };
+
