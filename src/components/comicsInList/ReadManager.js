@@ -1,12 +1,9 @@
-// import { useHistory } from "react-router-dom";
-// import React, { useState, useEffect } from 'react';
-
 const remoteURL = "http://localhost:8088"
 const userId=sessionStorage.getItem("mcco_user")
 
 export const getAllReads = () => {
 
-  return fetch(`${remoteURL}/reads?userId=${userId}&?_embed=comic`)
+  return fetch(`${remoteURL}/reads?userId=${userId}&_expand=comic`)
   .then(res => res.json())
 }
 
@@ -16,18 +13,34 @@ export const getReadById = (readId) => {
   .then(res => res.json())
 }
 
-// const addcomic = (newComic) => {
-//     return fetch(`${remoteURL}/comics`, {
-//         method: "POST",
-//         headers: {
-//             "Content-Type": "application/json"
-//         },
-//         body: JSON.stringify(newComic)
-//     }).then(response => response.json())
-// }
+export const deleteRead = (id) => {
+  console.log(id)
+  return fetch(`${remoteURL}/reads/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({isDeleted: true})
+  }).then(res => res.json())
+}
+export const deleteMustRead = (id) => {
+  console.log(id)
+  return fetch(`${remoteURL}/category_1/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({isDeleted: true})
+  }).then(res => res.json())
+}
 
-// export const addNewComic = event => {
-//     const history = useHistory();  
-//     addcomic(comic)
-//     .then(() => history.push("/reading_list"))
-// };
+export const mustRead = (id) => {
+  return fetch(`${remoteURL}/reads/${id}&_expand=category_1`, {
+      method: "DELETE"
+  }).then(res => res.json())
+}
+
+export const getAllCategories= () => {
+
+  return fetch(`${remoteURL}/category_1?userId=${userId}&_expand=comic`)
+  .then(res => res.json())}
