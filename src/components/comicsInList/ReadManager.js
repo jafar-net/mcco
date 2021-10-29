@@ -25,7 +25,7 @@ export const deleteRead = (id) => {
 }
 export const deleteMustRead = (id) => {
   console.log(id)
-  return fetch(`${remoteURL}/category_1/${id}`, {
+  return fetch(`${remoteURL}/category1/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
@@ -34,13 +34,23 @@ export const deleteMustRead = (id) => {
   }).then(res => res.json())
 }
 
-export const mustRead = (id) => {
-  return fetch(`${remoteURL}/reads/${id}&_expand=category_1`, {
-      method: "DELETE"
-  }).then(res => res.json())
-}
-
 export const getAllCategories= () => {
 
-  return fetch(`${remoteURL}/category_1?userId=${userId}&_expand=comic`)
+  return fetch(`${remoteURL}/category1?userId=${userId}&_expand=comic`)
   .then(res => res.json())}
+
+export const getAllComplete= () => {
+
+    return fetch(`${remoteURL}/complete?userId=${userId}&_expand=comic`)
+    .then(res => res.json())}
+
+export const deleteComplete = (id) => {
+      console.log(id)
+      return fetch(`${remoteURL}/complete/${id}`, {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({isDeleted: true})
+      }).then(res => res.json())
+    }
