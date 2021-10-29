@@ -4,12 +4,13 @@ import {MovieList, MovieList2} from './components/movies/MovieList.js'
 import { ComicList } from './components/comics/ComicList.js'
 import { MoreInfo, MoreInfo2 } from './components/movies/MoreInfo.js'
 import { ReadList } from './components/comicsInList/ReadList.js'
+import { MustRead } from "./components/comicsInList/MustReadList"
 
 export const ApplicationViews = () => {
     return (
       <>
   
-        <Route exact path="/movies">
+        <Route exact path="/">
           <MovieList />
         </Route>
 
@@ -25,6 +26,7 @@ export const ApplicationViews = () => {
             
             <Route exact path="/reading_list">
           <ReadList/>
+          <MustRead/>
         </Route>
         </>
   )

@@ -289,14 +289,14 @@
     {
       "id": 31,
       "title": "Avengers 54",
-      "movieId": 10,
+      "movieId": 11,
       "description": "First appearance of Ultron ",
       "url": "https://www.marvel.com/comics/issue/7304/avengers_1963_54"
     },
     {
       "id": 32,
       "title": "Guardians of the Galaxy Vol 2",
-      "movieId": 11,
+      "movieId": 10,
       "description": "Formation of the Guardians of the Galaxy",
       "url": "https://www.marvel.com/comics/issue/21268/guardians_of_the_galaxy_2008_1"
     },
@@ -313,63 +313,272 @@
       "movieId": 3,
       "description": "Iron Man's briefcase armor",
       "url": "https://marvel.fandom.com/wiki/Tales_of_Suspense_Vol_1_40"
+    },
+    {
+      "id": 35,
+      "title": "Strange Tales 146",
+      "movieId": 7,
+      "description": "First Appearance of A.I.M.",
+      "url": "https://www.marvel.com/comics/issue/11068/strange_tales_1951_146"
+    },
+    {
+      "id": 36,
+      "title": "Tales of Suspense 61 ",
+      "movieId": 7,
+      "description": "The Destruction of Stark Mansion by the Mandarin",
+      "url": "https://www.marvel.com/comics/issue/11305/tales_of_suspense_1959_61"
+    },
+    {
+      "id": 37,
+      "title": "Thor 344",
+      "movieId": 8,
+      "description": "First appearance of Malekith",
+      "url": "https://www.marvel.com/comics/issue/11672/thor_1966_344"
+    },
+    {
+      "id": 38,
+      "title": "Captain America 117",
+      "movieId": 9,
+      "description": "First appearance of Falcon",
+      "url": "https://www.marvel.com/comics/issue/7498/captain_america_1968_117"
+    },
+    {
+      "id": 39,
+      "title": "Avengers 157",
+      "movieId": 11,
+      "description": "First appearance of Vision",
+      "url": "https://www.marvel.com/comics/issue/7016/avengers_1963_157"
+    },
+    {
+      "id": 40,
+      "title": "Thanos 8",
+      "movieId": 10,
+      "description": "First appearance of the Star-Lord ",
+      "url": "https://www.marvel.com/comics/issue/424/thanos_2003_8"
+    },
+    {
+      "id": 41,
+      "title": "Marvel Premiere 47",
+      "movieId": 12,
+      "description": "First Appearance of Scott Lang/ Ant-Man and Darren Cross/ Yellowjacket",
+      "url": "https://www.marvel.com/comics/issue/10236/marvel_premiere_1972_47"
     }
   ],
   "reads": [
-    {
-      "id": 1,
-      "comicId": 1,
-      "userId": 2,
-      "isCompleted": false,
-      "categoryId": 1
-    },
     {
       "id": 2,
       "comicId": 3,
       "userId": 1,
       "isCompleted": true,
-      "categoryId": 1
+      "categoryId": 1,
+      "isDeleted": true
     },
     {
-      "comicId": "25",
-      "userId": "1",
-      "isCompleted": false,
+      "comicId": 25,
+      "userId": 1,
+      "isCompleted": true,
       "categoryId": 1,
       "id": 3
     },
     {
-      "comicId": "17",
-      "userId": "1",
+      "comicId": 9,
+      "userId": 1,
       "isCompleted": false,
       "categoryId": 1,
-      "id": 4
+      "id": 4,
+      "isDeleted": true
     },
     {
-      "comicId": "1",
-      "userId": "1",
-      "isCompleted": false,
-      "categoryId": 1,
-      "id": 5
-    },
-    {
-      "comicId": "1",
-      "userId": "1",
+      "comicId": 28,
+      "userId": 1,
       "isCompleted": false,
       "categoryId": 1,
       "id": 6
     },
     {
-      "comicId": "28",
-      "userId": "1",
+      "comicId": 1,
+      "userId": 3,
       "isCompleted": false,
       "categoryId": 1,
       "id": 7
+    },
+    {
+      "comicId": "33",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 12,
+      "isDeleted": true
+    },
+    {
+      "comicId": "29",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 13
+    },
+    {
+      "comicId": "34",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 14
+    },
+    {
+      "comicId": "3",
+      "userId": "2",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 15
+    },
+    {
+      "comicId": "39",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 16,
+      "isDeleted": true
+    },
+    {
+      "comicId": "38",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 17,
+      "isDeleted": true
+    },
+    {
+      "comicId": "7",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 18,
+      "isDeleted": true
+    },
+    {
+      "comicId": "9",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 19,
+      "isDeleted": true
+    },
+    {
+      "comicId": "30",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 20,
+      "isDeleted": true
+    },
+    {
+      "comicId": "28",
+      "userId": "2",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 21
+    },
+    {
+      "comicId": "1",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 22
     }
   ],
-  "categories": [
+  "category_1": [
     {
+      "comicId": 3,
+      "userId": 1,
+      "isCompleted": false,
+      "categoryId": 1,
       "id": 1,
-      "name": "Hulk"
+      "isDeleted": true
+    },
+    {
+      "comicId": "13",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 2,
+      "isDeleted": true
+    },
+    {
+      "comicId": "14",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "comicId": "12",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "comicId": "16",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 5
+    },
+    {
+      "comicId": "6",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 6
+    },
+    {
+      "comicId": "15",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 7,
+      "isDeleted": true
+    },
+    {
+      "comicId": "15",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 8,
+      "isDeleted": true
+    },
+    {
+      "comicId": "21",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 9,
+      "isDeleted": true
+    },
+    {
+      "comicId": "15",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 10,
+      "isDeleted": true
+    },
+    {
+      "comicId": "21",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 11,
+      "isDeleted": true
+    },
+    {
+      "comicId": "15",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 12
+    },
+    {
+      "comicId": "21",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 13
+    },
+    {
+      "comicId": "21",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 14,
+      "isDeleted": true
     }
   ],
   "users": [

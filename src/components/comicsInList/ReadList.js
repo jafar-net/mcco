@@ -1,25 +1,26 @@
 import React, {useState, useEffect} from 'react';
 import {  getAllReads } from './ReadManager';
-import { getComicById}  from "../comics/ComicManager"
 import { ReadCard } from './ReadCard';
-import { ComicCard } from '../comics/ComicCard';
+import { deleteRead } from "./ReadManager"
 
 export const ReadList = () => {
-    // let comics = [];
-  const [comics, setComics] = useState([])
-    const geComics = () => {
+  const [reads, setReads] = useState([])
+    const getComics = () => {
         return getAllReads().then(readsFromApi => {
-            // setComics(readsFromApi)
-            readsFromApi.forEach(read => {
-               getComicById(read.comicId).then(comic => {
-                setComics(comics => [...comics, comic])
+            // setReads(readsFromApi)
+                setReads(readsFromApi)
                })
-            });
-            console.log(comics)
-        });
+    
     };
+
+    const handleDeleteRead = id => {
+        console.log(id)
+        deleteRead(id)
+            .then(() => getAllReads().then(setReads));
+    };
+
     useEffect(() => {
-        geComics();
+        getComics();
     }, []);
 
 	return (
@@ -27,7 +28,10 @@ export const ReadList = () => {
         <div className="container-cards">
             <h1>Reading List</h1>
             <div>
-            {comics?.map(comic => <ReadCard key={comic.Id} comic={comic}  />)}
+            {reads?.map(read => 
+                     <ReadCard 
+                        key={read.id} read={read} 
+                        handleDeleteRead={handleDeleteRead} />)}
             </div>
         </div>
         </>

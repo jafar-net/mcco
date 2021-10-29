@@ -12,7 +12,7 @@ const history = useHistory();
     <nav className="nav__flex">
       <ul className="nav">
         <li className="nav__item">
-          <Link className="nav__link" to="/movies">Phase 1</Link>
+          <Link className="nav__link" to="/">Phase 1</Link>
         </li>
         <li className="nav__item">
           <Link className="nav__link" to="/movies2">Phase 2</Link>

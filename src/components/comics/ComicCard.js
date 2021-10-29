@@ -18,7 +18,7 @@ export const ComicCard = ({ comic }) => {
                     })
                 })
                     .then(res => res.json())
-                    .then(createdUser => {
+                    .then(add => {
                             history.push("/reading_list")
                     })
             
