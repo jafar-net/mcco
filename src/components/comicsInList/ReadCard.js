@@ -1,52 +1,20 @@
 import React from "react" 
 import { useHistory } from "react-router-dom"
+import { getAllComics } from "../comics/ComicManager"
 import "./Read.css"
 
-export const ReadCard = ({read, handleDeleteRead}) => {
+export const ReadCard = ({read, handleDeleteRead, handleCompletes, getComics, handleMustRead}) => {
   console.log(read)
   const history = useHistory();
-  const handleMustRead = () => {
-    fetch("http://localhost:8088/category1", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          comicId: `${read.comicId}`,
-          userId: sessionStorage.getItem("mcco_user"),
-          isCompleted: false
-        })
-    })
-        .then(res => res.json())
-        .then(add => {
-                history.push("/reading_list")
-        })
+  
 
-}
-const handleComplete = () => {
-  fetch("http://localhost:8088/complete", {
-      method: "POST",
-      headers: {
-          "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        comicId: `${read.comicId}`,
-        userId: sessionStorage.getItem("mcco_user"),
-      })
-  })
-      .then(res => res.json())
-      .then(add => {
-              history.push("/reading_list")
-      })
-
-}
 if (read.isDeleted == null) {
 	return (
 	<div>
     <a target="_blank" href={read.comic?.url}>{read.comic?.title}</a>
     <div>
-        <button type="button" className="button-complete" onClick={()=> handleComplete(read.id)}>Complete</button>
-          <button type="button" className="must-read" onClick={() => handleMustRead(read.id)}>Must Read</button>
+          <input type="checkbox" className="checkbox" onClick={() => handleCompletes(read.id)} />
+          <button type="button" className="must-read" onClick={() => handleMustRead(read.id, read)}>Must Read</button>
           <button type="button" className="button-del" onClick={() => handleDeleteRead(read.id)}>Delete From List</button>
     </div>
     

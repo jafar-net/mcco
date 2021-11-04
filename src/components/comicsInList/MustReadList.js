@@ -1,21 +1,18 @@
 import React, {useState, useEffect} from 'react';
-import {  deleteMustRead, getAllCategories, getAllComplete } from "./ReadManager";
+import {  deleteMustRead, getAllCategories } from "./ReadManager";
 import { MustReadCard } from './MustRead';
 
-export const MustRead = () => {
+export const MustRead = ({getCategories, categories, setCategories}) => {
   // The initial state is an empty array
-  const [categories, setCategories] = useState([])
-    const getCategories = () => {
-		return getAllCategories().then(categorieFromAPI => {
-            console.log(categorieFromAPI)
-			setCategories(categorieFromAPI);
-		});
-	};
+//   const [categories, setCategories] = useState([])
+  const userId=sessionStorage.getItem("mcco_user")
+
+
 
     const handleDeleteMustRead = id => {
         console.log(id)
         deleteMustRead(id)
-            .then(() => getAllCategories().then(setCategories));
+            .then(() => getAllCategories(userId).then(setCategories));
     };
 
     useEffect(() => {
@@ -27,8 +24,9 @@ export const MustRead = () => {
         <div className="container-cards">
             <h1>Must Reads</h1>
             <ul>
-            {categories?.map(categorie => <MustReadCard key={categorie.id} categorie={categorie}
-          handleDeleteMustRead={handleDeleteMustRead}  />)}
+            {categories.map(categorie => <MustReadCard key={categorie.id} categorie={categorie}
+          handleDeleteMustRead={handleDeleteMustRead} 
+          getCategories={getCategories} />)}
           
             </ul>
         </div>

@@ -12,7 +12,7 @@ export const ComicList = () => {
 		console.log("getComics Invoked")
 		return getAllComics().then(comicFromAPI => {
 		const filterComics = comicFromAPI.filter(comic => comic.movieId === parseInt(movieId))
-			console.log(filterComics);
+			console.log(comicFromAPI);
 			setComic(filterComics);
 		});
 	};
