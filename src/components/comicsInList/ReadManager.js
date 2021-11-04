@@ -1,9 +1,9 @@
 const remoteURL = "http://localhost:8088"
-const userId=sessionStorage.getItem("mcco_user")
 
-export const getAllReads = () => {
 
-  return fetch(`${remoteURL}/reads?userId=${userId}&_expand=comic`)
+export const getAllReads = (id) => {
+
+  return fetch(`${remoteURL}/reads?userId=${id}&?isCompleted=false&_expand=comic`)
   .then(res => res.json())
 }
 
@@ -34,23 +34,19 @@ export const deleteMustRead = (id) => {
   }).then(res => res.json())
 }
 
-export const getAllCategories= () => {
+export const getAllCategories= (id) => {
 
-  return fetch(`${remoteURL}/category1?userId=${userId}&_expand=comic`)
+  return fetch(`${remoteURL}/category1?userId=${id}&_expand=comic`)
   .then(res => res.json())}
 
-export const getAllComplete= () => {
-
-    return fetch(`${remoteURL}/complete?userId=${userId}&_expand=comic`)
-    .then(res => res.json())}
-
-export const deleteComplete = (id) => {
-      console.log(id)
-      return fetch(`${remoteURL}/complete/${id}`, {
-          method: "PATCH",
+    export const Completes = (id) => {
+      return fetch(`${remoteURL}/reads/${id}`, {
+          method: 'PATCH',
+          body: JSON.stringify({
+              isCompleted: true
+          }),
           headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({isDeleted: true})
+              "Content-type": "application/json"
+          }
       }).then(res => res.json())
-    }
+  }
