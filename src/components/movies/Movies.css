@@ -64,3 +64,29 @@ body {
     font-family: 'Marvel', sans-serif;
     cursor: pointer;
   }
+
+  .img-movie-comics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+    padding: 1em
+  }
+
+  .syn {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .descript {
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+
+  .movie-syn {
+    display: flex;
+    padding-left: 35px;
+    flex-wrap: nowrap;  }

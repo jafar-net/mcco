@@ -18,7 +18,13 @@ const history = useHistory();
           <Link className="nav__link" to="/movies2">Phase 2</Link>
         </li>
         <li className="nav__item">
-          <Link className="nav__link" to="/reading_list">Reading List</Link>
+          <Link className="nav__link" to="/movies3">Phase 3</Link>
+        </li>
+        <li className="nav__item">
+          <Link className="nav__link" to="/movies4">Phase 4</Link>
+        </li>
+        <li className="nav__item">
+          <Link className="nav__list" to="/reading_list">Reading List</Link>
         </li>
         <li className="nav__item">
           <button className="nav__button" onClick={() => {

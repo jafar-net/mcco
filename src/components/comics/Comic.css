@@ -33,3 +33,29 @@
     padding:1em;
     box-sizing: border-box
   }
+
+  .comic-title {
+      color: white;
+      font-family: 'Marvel', sans-serif;
+font-weight: bold;
+text-shadow: -2px -2px 0 black,
+             2px -2px 0 black,
+             -2px 2px 0 black,
+             2px 2px 0 black,
+             -3px 0 0 black,
+             3px 0 0 black,
+             0 -3px 0 black,
+             0 3px 0 black;
+  }
+
+  .film-connection {
+    color: #B3AE25;
+    text-shadow: -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black,
+    -3px 0 0 black,
+    3px 0 0 black,
+    0 -3px 0 black,
+    0 3px 0 black;
+  }
