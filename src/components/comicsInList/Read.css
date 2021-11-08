@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.read-cards {
+    background-color: #525050;
+
+}
+
+.read-buttons {
+    color: #B3AE25;
+    background-color: #CB1E1E;
+    color: white;
+    font-size: 9px;
+    padding: 3px 8px;
+    font-family: 'Marvel', sans-serif;
+    cursor: pointer;
+}
+
+.read-title {
+    color: #B3AE25;
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.buttons {
+    padding-bottom: .5em;
+}
+  /* mouse over link */
+  .read-title:hover {
+    color: #CB1E1E;
+  }
+
+  .completed {
+      color: white;
+      background-color: #454343;
+  }
+  .must-reads {
+      color: white;
+      background-color: #797676;
+  }

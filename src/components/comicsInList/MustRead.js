@@ -4,10 +4,11 @@ export const MustReadCard = ({categorie, handleDeleteMustRead}) => {
     if (categorie.isDeleted == null) {
 	return (
         <div>
-            <ul>
-        <a target="_blank" href={categorie?.comic.url}>{categorie?.comic.title}</a>
-        <button type="button" className="button-del" onClick={() => handleDeleteMustRead(categorie.id)}>Delete From List</button>
-        </ul>
+        <a className="read-title" target="_blank" href={categorie?.comic.url}>{categorie?.comic.title}</a>
+        <div className="buttons">
+          <input type="checkbox" className="read-buttons" />
+          <button type="button" className="read-buttons" onClick={() => handleDeleteMustRead(categorie.id)}>Delete From List</button>
+        </div>
         </div>
       ) 
     }

@@ -4,7 +4,7 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 20px;
     text-align: center;
   }
@@ -44,4 +44,17 @@
     background-color: white;
     cursor: pointer;
     border: white;
+    justify-content: flex-end;
+  }
+
+  .nav__list {
+    font-family: 'Marvel', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #CB1E1E;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border: white;
+    justify-content: flex-end;
   }

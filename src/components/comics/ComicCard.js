@@ -28,8 +28,8 @@ export const ComicCard = ({ comic }) => {
     <div className="container-comic">
       <ul className="list">
         <h2 className="comic-title">{comic.title}</h2>
-        <h4>Film Connection:</h4>
-        <p>{comic.description}</p>
+        <h4 className="film-connection">Film Connection:</h4>
+        <p className="descript">{comic.description}</p>
         <a href={comic.url} target="_blank"><button className="comic-button">More Info</button></a>
         <button className="comic-buttons" type="button"
         comic={comic}

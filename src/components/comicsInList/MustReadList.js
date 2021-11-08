@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {  deleteMustRead, getAllCategories } from "./ReadManager";
 import { MustReadCard } from './MustRead';
+import "./Read.css"
 
 export const MustRead = ({getCategories, categories, setCategories}) => {
   // The initial state is an empty array
@@ -21,14 +22,14 @@ export const MustRead = ({getCategories, categories, setCategories}) => {
 
 	return (
         <>
-        <div className="container-cards">
-            <h1>Must Reads</h1>
-            <ul>
+        <div className="reads-cards">
+            <h1 className="must-reads">Must Reads</h1>
+            <div>
             {categories.map(categorie => <MustReadCard key={categorie.id} categorie={categorie}
           handleDeleteMustRead={handleDeleteMustRead} 
           getCategories={getCategories} />)}
           
-            </ul>
+            </div>
         </div>
         </>
     );

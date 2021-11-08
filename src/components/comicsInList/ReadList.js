@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {  getAllReads } from './ReadManager';
 import { ReadCard } from './ReadCard';
 import { deleteRead, Completes } from "./ReadManager"
-import { getAllComics } from '../comics/ComicManager';
+import "./Read.css"
 
 export const ReadList = ({handleMustRead}) => {
   const [reads, setReads] = useState([])
@@ -32,7 +32,7 @@ export const ReadList = ({handleMustRead}) => {
 
 	return (
         <>
-        <div className="container-cards">
+        <div className="read-cards">
             <h1>Reading List</h1>
             <div>
             {reads.map(read => read.isCompleted ? console.log("true")
@@ -44,7 +44,8 @@ export const ReadList = ({handleMustRead}) => {
                         handleMustRead={handleMustRead}
                        />)}
             </div>
-            <h1>Completed List</h1>
+            <div className = "read-cards">
+            <h1 className="completed">Completed List</h1>
             <div>
             {reads.map(read => !read.isCompleted ? console.log("true")
                      : <ReadCard 
@@ -54,6 +55,7 @@ export const ReadList = ({handleMustRead}) => {
                         getComics={getComics}
                         handleMustRead={handleMustRead}
                        />)}
+            </div>
             </div>
 
         </div>

@@ -94,7 +94,7 @@
       "id": 3,
       "title": "Tales of Suspense 48",
       "movieId": 1,
-      "description": "(Iron Man dons the red and gold color scheme",
+      "description": "Iron Man dons the red and gold color scheme",
       "url": "https://www.marvel.com/comics/issue/11290/tales_of_suspense_1959_48"
     },
     {
@@ -433,84 +433,96 @@
       "userId": 1,
       "isCompleted": true,
       "categoryId": 1,
-      "id": 21
+      "id": 21,
+      "isDeleted": true
     },
     {
       "comicId": 41,
       "userId": 1,
       "isCompleted": true,
       "categoryId": 1,
-      "id": 22
+      "id": 22,
+      "isDeleted": true
     },
     {
       "comicId": 10,
       "userId": 1,
       "isCompleted": true,
       "categoryId": 1,
-      "id": 23
+      "id": 23,
+      "isDeleted": true
     },
     {
       "comicId": 20,
       "userId": 1,
       "isCompleted": true,
       "categoryId": 1,
-      "id": 24
+      "id": 24,
+      "isDeleted": true
     },
     {
       "comicId": "30",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 26
+      "id": 26,
+      "isDeleted": true
     },
     {
       "comicId": "28",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 27
+      "id": 27,
+      "isDeleted": true
     },
     {
       "comicId": "37",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 28
+      "id": 28,
+      "isDeleted": true
     },
     {
       "comicId": "38",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 29
+      "id": 29,
+      "isDeleted": true
     },
     {
       "comicId": "40",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 30
+      "id": 30,
+      "isDeleted": true
     },
     {
       "comicId": "20",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 31
+      "id": 31,
+      "isDeleted": true
     },
     {
       "comicId": "27",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 32
+      "id": 32,
+      "isDeleted": true
     },
     {
       "comicId": "35",
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 33
+      "id": 33,
+      "isDeleted": true
     },
     {
       "comicId": "7",
@@ -581,7 +593,8 @@
       "userId": "1",
       "isCompleted": true,
       "categoryId": 1,
-      "id": 43
+      "id": 43,
+      "isDeleted": true
     },
     {
       "comicId": "34",
@@ -610,9 +623,10 @@
     {
       "comicId": "27",
       "userId": "1",
-      "isCompleted": false,
+      "isCompleted": true,
       "categoryId": 1,
-      "id": 47
+      "id": 47,
+      "isDeleted": true
     },
     {
       "comicId": "27",
@@ -651,14 +665,176 @@
       "userId": "1",
       "isCompleted": false,
       "categoryId": 1,
-      "id": 54
+      "id": 54,
+      "isDeleted": true
     },
     {
       "comicId": "7",
       "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 55,
+      "isDeleted": true
+    },
+    {
+      "comicId": "28",
+      "userId": "2",
       "isCompleted": false,
       "categoryId": 1,
-      "id": 55
+      "id": 56
+    },
+    {
+      "comicId": "29",
+      "userId": "2",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 57
+    },
+    {
+      "comicId": "42",
+      "userId": "2",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 58
+    },
+    {
+      "comicId": "34",
+      "userId": "2",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 59
+    },
+    {
+      "comicId": "39",
+      "userId": "2",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 60
+    },
+    {
+      "comicId": "42",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 61,
+      "isDeleted": true
+    },
+    {
+      "comicId": "11",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 62,
+      "isDeleted": true
+    },
+    {
+      "comicId": "11",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 63,
+      "isDeleted": true
+    },
+    {
+      "comicId": "45",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 64
+    },
+    {
+      "comicId": "28",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 65,
+      "isDeleted": true
+    },
+    {
+      "comicId": "34",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 66,
+      "isDeleted": true
+    },
+    {
+      "comicId": "27",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 67,
+      "isDeleted": true
+    },
+    {
+      "comicId": "41",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 68
+    },
+    {
+      "comicId": "37",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 69
+    },
+    {
+      "comicId": "4",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 70
+    },
+    {
+      "comicId": "30",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 71
+    },
+    {
+      "comicId": "20",
+      "userId": "1",
+      "isCompleted": true,
+      "categoryId": 1,
+      "id": 72
+    },
+    {
+      "comicId": "25",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 73
+    },
+    {
+      "comicId": "29",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 74
+    },
+    {
+      "comicId": "40",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 75
+    },
+    {
+      "comicId": "4",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 76
+    },
+    {
+      "comicId": "10",
+      "userId": "1",
+      "isCompleted": false,
+      "categoryId": 1,
+      "id": 77
     }
   ],
   "category1": [
@@ -778,7 +954,8 @@
       "comicId": "27",
       "userId": "1",
       "isCompleted": false,
-      "id": 64
+      "id": 64,
+      "isDeleted": true
     },
     {
       "comicId": "36",
@@ -819,13 +996,15 @@
       "comicId": "27",
       "userId": "1",
       "isCompleted": false,
-      "id": 70
+      "id": 70,
+      "isDeleted": true
     },
     {
       "comicId": "43",
       "userId": "1",
       "isCompleted": false,
-      "id": 71
+      "id": 71,
+      "isDeleted": true
     },
     {
       "comicId": "28",
@@ -873,7 +1052,66 @@
       "comicId": "36",
       "userId": "1",
       "isCompleted": false,
-      "id": 78
+      "id": 78,
+      "isDeleted": true
+    },
+    {
+      "comicId": "7",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 79,
+      "isDeleted": true
+    },
+    {
+      "comicId": "7",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 80,
+      "isDeleted": true
+    },
+    {
+      "comicId": "28",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 81
+    },
+    {
+      "comicId": "29",
+      "userId": "2",
+      "isCompleted": false,
+      "id": 82
+    },
+    {
+      "comicId": "45",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 83
+    },
+    {
+      "comicId": "37",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 84,
+      "isDeleted": true
+    },
+    {
+      "comicId": "4",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 85,
+      "isDeleted": true
+    },
+    {
+      "comicId": "29",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 86
+    },
+    {
+      "comicId": "4",
+      "userId": "1",
+      "isCompleted": false,
+      "id": 87
     }
   ],
   "users": [
